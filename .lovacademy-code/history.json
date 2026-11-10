@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T14:34:21.000Z",
+  "updated_at": "2026-11-10T14:38:26.476Z",
   "messages": [
     {
       "role": "user",
@@ -56,6 +56,29 @@
     {
       "role": "assistant",
       "text": "O envio de anexos depende dos recursos habilitados no LovAcademy Code. Como não tenho acesso às configurações do aplicativo, não consigo ativá-lo por aqui.\n\nVeja se há um botão de clipe ou imagem perto do campo de mensagem. Se não aparecer, use links públicos para as imagens ou consulte o suporte da LovAcademy para saber se o envio de anexos pode ser habilitado na sua versão."
+    },
+    {
+      "role": "user",
+      "text": "Capa inicial:",
+      "attachments": [
+        {
+          "name": "Create_real_estate_photo_a8b49ed7_2K.jpg",
+          "size": 2877512
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "text": "Não consegui responder agora: Nesta versão de teste, anexos de imagem ou binários exigem o modo ChatGPT autorizado. Para Codex, envie somente texto/código."
+    },
+    {
+      "role": "user",
+      "text": "Capa inicial: https://trello.com/1/cards/6af32bf84640cfd4ec16d09c/attachments/6af32c0c2fafc0bf8cf65755/download/Create_real_estate_photo_a8b49ed7_2K.jpg",
+      "attachments": []
+    },
+    {
+      "role": "assistant",
+      "text": "Esse link do Trello pode exigir login, então talvez não seja acessível para substituir a capa. Envie um link público que abra a imagem sem autenticação. Não alterei nenhum arquivo."
     }
   ]
 }
