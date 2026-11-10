@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T15:06:29.310Z",
+  "updated_at": "2026-11-10T15:06:34.062Z",
   "messages": [
     {
       "role": "user",
@@ -110,6 +110,10 @@
     {
       "role": "assistant",
       "text": "Substituí as imagens da galeria pelas URLs fornecidas, mantendo a primeira imagem atual como foto principal. Links do Imgur foram convertidos para URLs diretas de imagem."
+    },
+    {
+      "role": "assistant",
+      "text": "Alterações aplicadas no GitHub: src/config/site.ts"
     }
   ]
 }
