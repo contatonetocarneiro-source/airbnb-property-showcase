@@ -28,3 +28,9 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+- All property content (texts in en/es/pt, prices, MAX_GUESTS, contact, legal numbers, gallery) lives in `src/config/site.ts`; generic UI strings live in `src/i18n/ui.ts`. Why: the site must be reusable for other properties by editing one file.
+- Language comes from `?lang=` (SSR, hreflang) else localStorage/browser detection via `I18nProvider`. Why: crawlable per-language pages without separate routes.
+- Booking requests are inserted server-side by `submitBookingRequest` (service role); the `booking_requests` table has RLS on with no public policies. Why: visitors can submit but never read submissions.
+- Phase 2 hooks: iCal blocked dates go in `src/lib/availability.ts`; Stripe Checkout (EUR) attaches to `submitBookingRequest`. Why: keep future payment/sync additions isolated.
