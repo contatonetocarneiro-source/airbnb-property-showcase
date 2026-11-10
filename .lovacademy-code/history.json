@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T15:02:26.696Z",
+  "updated_at": "2026-11-10T15:02:31.821Z",
   "messages": [
     {
       "role": "user",
@@ -97,6 +97,10 @@
     {
       "role": "assistant",
       "text": "Atualizei a capa para usar a imagem do Imgur com uma camada escura uniforme de 50%."
+    },
+    {
+      "role": "assistant",
+      "text": "Alterações aplicadas no GitHub: src/components/site/Hero.tsx"
     }
   ]
 }
