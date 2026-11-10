@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T14:33:18.158Z",
+  "updated_at": "2026-11-10T14:34:21.000Z",
   "messages": [
     {
       "role": "user",
@@ -47,6 +47,15 @@
     {
       "role": "assistant",
       "text": "Se o anexo de imagem não estiver habilitado no LovAcademy Code, envie um link público para cada imagem. Pode ser um link direto para o arquivo ou para uma imagem hospedada em um serviço acessível sem login.\n\nIndique qual imagem cada link deve substituir, por exemplo:\n\n- Capa inicial: `https://.../capa.jpg`\n- Apartamento 1: `https://.../apartamento1.jpg`\n- Apartamento 2: `https://.../apartamento2.jpg`\n\nSe as imagens ainda estiverem só no seu dispositivo, primeiro publique-as em um serviço de hospedagem e copie os links. Evite links que exijam login ou expiram rapidamente."
+    },
+    {
+      "role": "user",
+      "text": "como faça para habilitar o envio de anexo ?",
+      "attachments": []
+    },
+    {
+      "role": "assistant",
+      "text": "O envio de anexos depende dos recursos habilitados no LovAcademy Code. Como não tenho acesso às configurações do aplicativo, não consigo ativá-lo por aqui.\n\nVeja se há um botão de clipe ou imagem perto do campo de mensagem. Se não aparecer, use links públicos para as imagens ou consulte o suporte da LovAcademy para saber se o envio de anexos pode ser habilitado na sua versão."
     }
   ]
 }
