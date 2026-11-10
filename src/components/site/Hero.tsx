@@ -12,14 +12,14 @@ export function Hero() {
   return (
     <section className="relative isolate flex min-h-[92svh] items-end overflow-hidden">
       <img
-        src={hero.src}
+        src="https://i.imgur.com/1GiJeru.jpg"
         alt={l(hero.alt)}
         width={hero.width}
         height={hero.height}
         fetchPriority="high"
         className="absolute inset-0 -z-20 size-full object-cover"
       />
-      <div className="hero-scrim absolute inset-0 -z-10" />
+      <div className="absolute inset-0 -z-10 bg-black/50" />
 
       <div className="mx-auto w-full max-w-6xl px-4 pt-28 pb-10 sm:px-6 sm:pb-16">
         <div className="max-w-2xl text-primary-foreground">
