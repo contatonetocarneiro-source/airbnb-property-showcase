@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T15:02:31.821Z",
+  "updated_at": "2026-11-10T15:06:29.310Z",
   "messages": [
     {
       "role": "user",
@@ -101,6 +101,15 @@
     {
       "role": "assistant",
       "text": "Alterações aplicadas no GitHub: src/components/site/Hero.tsx"
+    },
+    {
+      "role": "user",
+      "text": "TROQUE AS DEMAIS IMAGENS DA GALERIA DO APARTAMENTO POR ESSAS: https://imgur.com/yDgR3OZ https://imgur.com/ece6p1S https://imgur.com/llLNjdl https://imgur.com/oobCCEE https://imgur.com/1symZAO https://imgur.com/llLNjdl https://imgur.com/z60CnP0",
+      "attachments": []
+    },
+    {
+      "role": "assistant",
+      "text": "Substituí as imagens da galeria pelas URLs fornecidas, mantendo a primeira imagem atual como foto principal. Links do Imgur foram convertidos para URLs diretas de imagem."
     }
   ]
 }
