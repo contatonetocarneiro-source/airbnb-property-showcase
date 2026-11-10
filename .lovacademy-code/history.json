@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T14:38:26.476Z",
+  "updated_at": "2026-11-10T15:00:23.963Z",
   "messages": [
     {
       "role": "user",
@@ -79,6 +79,15 @@
     {
       "role": "assistant",
       "text": "Esse link do Trello pode exigir login, então talvez não seja acessível para substituir a capa. Envie um link público que abra a imagem sem autenticação. Não alterei nenhum arquivo."
+    },
+    {
+      "role": "user",
+      "text": "CAPA INICIAL: https://raw.githubusercontent.com/contatonetocarneiro-source/ANEXOS-BANCO-DE-DADOS/refs/heads/main/Real_estate_advertising_photo_1cdcc594_2K.jpg",
+      "attachments": []
+    },
+    {
+      "role": "assistant",
+      "text": "Não consigo acessar o anexo pela URL neste contexto, e o índice não inclui arquivos de imagem. Envie a imagem como anexo ou disponibilize-a no repositório para eu atualizar a capa inicial."
     }
   ]
 }
