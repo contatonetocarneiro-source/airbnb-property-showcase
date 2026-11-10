@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-10T14:32:04.751Z",
+  "messages": [
+    {
+      "role": "user",
+      "text": "mude a imagem inical de capa para essa imagem",
+      "attachments": [
+        {
+          "name": "Create_real_estate_photo_a8b49ed7_2K.jpg",
+          "size": 2877512
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "text": "Não foi possível concluir: Nesta versão de teste, anexos de imagem ou binários exigem o modo ChatGPT autorizado. Para Codex, envie somente texto/código."
+    },
+    {
+      "role": "user",
+      "text": "mude a imagem inical de capa para essa imagem",
+      "attachments": [
+        {
+          "name": "Create_real_estate_photo_a8b49ed7_2K.jpg",
+          "size": 2877512
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "text": "Não foi possível concluir: Nesta versão de teste, anexos de imagem ou binários exigem o modo ChatGPT autorizado. Para Codex, envie somente texto/código."
+    },
+    {
+      "role": "user",
+      "text": "troque as imagens do apartamento e a =imagem inicial",
+      "attachments": []
+    },
+    {
+      "role": "assistant",
+      "text": "Para trocar as imagens do apartamento e a imagem inicial, preciso dos novos arquivos de imagem ou de URLs para eles. O código recebido só contém referências às imagens atuais; não há novas imagens anexadas para usar."
+    }
+  ]
+}
