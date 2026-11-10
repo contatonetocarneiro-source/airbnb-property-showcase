@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T19:55:45.420Z",
+  "updated_at": "2026-11-10T19:58:43.663Z",
   "messages": [
     {
       "role": "user",
@@ -164,6 +164,15 @@
     {
       "role": "assistant",
       "text": "Não consigo atualizar as imagens porque `src/config/site.ts` foi fornecido como um aviso, não com o código completo. As imagens da galeria e seus imports são definidos nesse arquivo. Solicito que a extensão busque o conteúdo completo para eu fazer a troca."
+    },
+    {
+      "role": "user",
+      "text": "QUERO QUE VOCÊ REMOVA DO PROJETO A PARTE DE RESERVAS LA NO FINAL E DEIXE SOMENTE ATÉ A PARTE DE CONHEÇA O ANFITRIÃO",
+      "attachments": []
+    },
+    {
+      "role": "assistant",
+      "text": "A seção de reservas é renderizada depois de “Conheça o anfitrião” em `src/routes/index.tsx`. Para removê-la sem alterar outros componentes, preciso do conteúdo completo desse arquivo: o trecho recebido importa e renderiza `Booking`, mas a solicitação também diz para preservar o restante do código. Como o arquivo já foi fornecido, a extensão pode reenviá-lo para edição."
     }
   ]
 }
