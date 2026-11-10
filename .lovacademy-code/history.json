@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T14:32:04.751Z",
+  "updated_at": "2026-11-10T14:33:18.158Z",
   "messages": [
     {
       "role": "user",
@@ -38,6 +38,15 @@
     {
       "role": "assistant",
       "text": "Para trocar as imagens do apartamento e a imagem inicial, preciso dos novos arquivos de imagem ou de URLs para eles. O código recebido só contém referências às imagens atuais; não há novas imagens anexadas para usar."
+    },
+    {
+      "role": "user",
+      "text": "como faço pra enviar as imagens sendo que em anexo não consigo enviar? qual a maneira correta de enviar?",
+      "attachments": []
+    },
+    {
+      "role": "assistant",
+      "text": "Se o anexo de imagem não estiver habilitado no LovAcademy Code, envie um link público para cada imagem. Pode ser um link direto para o arquivo ou para uma imagem hospedada em um serviço acessível sem login.\n\nIndique qual imagem cada link deve substituir, por exemplo:\n\n- Capa inicial: `https://.../capa.jpg`\n- Apartamento 1: `https://.../apartamento1.jpg`\n- Apartamento 2: `https://.../apartamento2.jpg`\n\nSe as imagens ainda estiverem só no seu dispositivo, primeiro publique-as em um serviço de hospedagem e copie os links. Evite links que exijam login ou expiram rapidamente."
     }
   ]
 }
