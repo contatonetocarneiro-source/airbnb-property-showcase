@@ -14,10 +14,8 @@ import { Location } from "@/components/site/Location";
 import { Reviews } from "@/components/site/Reviews";
 import { GoodToKnow } from "@/components/site/GoodToKnow";
 import { Host } from "@/components/site/Host";
-import { Booking } from "@/components/site/Booking";
 import { Footer } from "@/components/site/Footer";
 import { ArchDivider } from "@/components/site/ArchDivider";
-import { WhatsAppFloat } from "@/components/site/whatsapp";
 
 export const Route = createFileRoute("/")({
   validateSearch: langSearch,
@@ -109,10 +107,8 @@ function Index() {
         <Reviews />
         <GoodToKnow />
         <Host />
-        <Booking />
       </main>
       <Footer />
-      <WhatsAppFloat />
     </>
   );
 }
