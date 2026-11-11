@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T20:02:42.563Z",
+  "updated_at": "2026-11-11T20:02:47.226Z",
   "messages": [
     {
       "role": "user",
@@ -200,6 +200,10 @@
     {
       "role": "assistant",
       "text": "Removi a seção de reservas, incluindo os preços e o formulário, e retirei o botão flutuante do WhatsApp da página inicial. Ela termina agora em “Conheça o anfitrião”."
+    },
+    {
+      "role": "assistant",
+      "text": "Alterações aplicadas no GitHub: src/routes/index.tsx"
     }
   ]
 }
