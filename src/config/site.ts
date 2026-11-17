@@ -26,9 +26,11 @@ import {
 import imgStreet from "@/assets/gallery-street.jpg";
 import imgLiving from "@/assets/gallery-living.jpg";
 import imgBedroom from "@/assets/gallery-bedroom.jpg";
+import imgBedroomTwin from "@/assets/gallery-bedroom-twin.jpg";
+import imgBedroomTwin2 from "@/assets/gallery-bedroom-twin2.jpg";
 import imgKitchen from "@/assets/gallery-kitchen.jpg";
+import imgDining from "@/assets/gallery-dining.jpg";
 import imgBathroom from "@/assets/gallery-bathroom.jpg";
-import imgPatio from "@/assets/gallery-patio.jpg";
 
 export const LANGS = ["en", "es", "pt"] as const;
 export type Lang = (typeof LANGS)[number];
@@ -57,51 +59,71 @@ export const gallery: GalleryImage[] = [
   {
     src: imgLiving,
     width: 1600,
-    height: 1072,
+    height: 894,
     alt: {
-      en: "Bright living room with linen sofas and a balcony opening onto the old town",
-      es: "Salón luminoso con sofás de lino y un balcón abierto al casco antiguo",
-      pt: "Sala clara com sofás de linho e uma varanda aberta para o centro histórico",
+      en: "Bright living room with a cream sofa, a green armchair and wooden bookshelves",
+      es: "Salón luminoso con sofá crema, sillón verde y estantería de madera",
+      pt: "Sala clara com sofá creme, poltrona verde e estante de madeira",
     },
   },
   {
-    src: imgBedroom,
+    src: imgDining,
     width: 1600,
-    height: 1072,
+    height: 1194,
     alt: {
-      en: "Bedroom with two single beds, white linen and wooden shutters",
-      es: "Dormitorio con dos camas individuales, ropa blanca y contraventanas de madera",
-      pt: "Quarto com duas camas de solteiro, roupa de cama branca e janelas de madeira",
+      en: "Dining area with a wooden table, green chairs and a world map on the wall",
+      es: "Comedor con mesa de madera, sillas verdes y un mapamundi en la pared",
+      pt: "Sala de jantar com mesa de madeira, cadeiras verdes e um mapa-múndi na parede",
     },
   },
   {
     src: imgKitchen,
     width: 1600,
-    height: 1072,
+    height: 1194,
     alt: {
-      en: "Fully equipped kitchen with hand-painted tiles and a wooden dining table",
-      es: "Cocina totalmente equipada con azulejos pintados a mano y mesa de madera",
-      pt: "Cozinha completa com azulejos pintados à mão e mesa de madeira",
+      en: "Fully equipped kitchen with oven, hob, dishwasher and washing machine",
+      es: "Cocina totalmente equipada con horno, placa, lavavajillas y lavadora",
+      pt: "Cozinha completa com forno, cooktop, lava-louças e máquina de lavar",
     },
   },
   {
-    src: imgPatio,
+    src: imgBedroom,
     width: 1600,
-    height: 1072,
+    height: 894,
     alt: {
-      en: "Traditional Córdoba patio with blue flower pots, a fountain and a horseshoe arch",
-      es: "Patio cordobés tradicional con macetas azules, fuente y arco de herradura",
-      pt: "Pátio tradicional de Córdoba com vasos azuis, fonte e arco em ferradura",
+      en: "Double bedroom with white linen, wooden panelling and tall wooden windows",
+      es: "Dormitorio doble con ropa de cama blanca, zócalo de madera y ventanales de madera",
+      pt: "Quarto de casal com roupa de cama branca, lambri de madeira e janelas altas de madeira",
+    },
+  },
+  {
+    src: imgBedroomTwin,
+    width: 1600,
+    height: 894,
+    alt: {
+      en: "Bedroom with two single beds, fresh towels and a balcony door",
+      es: "Dormitorio con dos camas individuales, toallas limpias y puerta de balcón",
+      pt: "Quarto com duas camas de solteiro, toalhas limpas e porta de varanda",
+    },
+  },
+  {
+    src: imgBedroomTwin2,
+    width: 1600,
+    height: 894,
+    alt: {
+      en: "Second twin bedroom with white linen, blue cushions and wall reading lamps",
+      es: "Segundo dormitorio con dos camas, ropa blanca, cojines azules y lámparas de pared",
+      pt: "Segundo quarto com duas camas, roupa branca, almofadas azuis e luminárias de parede",
     },
   },
   {
     src: imgBathroom,
     width: 1600,
-    height: 1072,
+    height: 1194,
     alt: {
-      en: "Bathroom with walk-in shower, wooden vanity and terracotta floor",
-      es: "Baño con ducha a ras de suelo, mueble de madera y suelo de barro",
-      pt: "Banheiro com box, gabinete de madeira e piso de terracota",
+      en: "Bathroom with bathtub and shower screen, painted tiles and a mirror",
+      es: "Baño con bañera y mampara, azulejos decorados y espejo",
+      pt: "Banheiro com banheira e box, azulejos decorados e espelho",
     },
   },
 ];
