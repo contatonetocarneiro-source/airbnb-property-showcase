@@ -112,14 +112,14 @@ export const siteConfig = {
 
   seo: {
     title: {
-      en: "Sunshine Mezquita | Apartment in Córdoba's Jewish Quarter | Book Direct",
-      es: "Sunshine Mezquita | Apartamento en la Judería de Córdoba | Reserva directa",
-      pt: "Sunshine Mezquita | Apartamento na Judiaria de Córdoba | Reserve direto",
+      en: "Sunshine Mezquita | Apartment in Córdoba's Jewish Quarter",
+      es: "Sunshine Mezquita | Apartamento en la Judería de Córdoba",
+      pt: "Sunshine Mezquita | Apartamento na Judiaria de Córdoba",
     },
     description: {
-      en: "Spacious 3-bedroom apartment steps from the Mosque-Cathedral of Córdoba. A/C, full kitchen, fast Wi-Fi. Book direct with Superhost Manuel — no platform fees.",
-      es: "Amplio apartamento de 3 dormitorios a pocos pasos de la Mezquita-Catedral de Córdoba. Aire acondicionado, cocina completa y Wi-Fi rápido. Reserva directa con Manuel, sin comisiones.",
-      pt: "Amplo apartamento de 3 quartos a poucos passos da Mesquita-Catedral de Córdoba. Ar-condicionado, cozinha completa e Wi-Fi rápido. Reserve direto com o Manuel, sem taxas de plataforma.",
+      en: "Spacious 3-bedroom apartment steps from the Mosque-Cathedral of Córdoba. A/C, full kitchen, fast Wi-Fi. Hosted by Superhost Manuel.",
+      es: "Amplio apartamento de 3 dormitorios a pocos pasos de la Mezquita-Catedral de Córdoba. Aire acondicionado, cocina completa y Wi-Fi rápido. Anfitrión: Manuel, Superhost.",
+      pt: "Amplo apartamento de 3 quartos a poucos passos da Mesquita-Catedral de Córdoba. Ar-condicionado, cozinha completa e Wi-Fi rápido. Anfitrião: Manuel, Superhost.",
     },
   },
 

@@ -17,7 +17,7 @@ export const legal: Record<LegalKind, Record<Lang, LegalDoc>> = {
         },
         {
           heading: "What we collect",
-          body: "When you send a booking request we receive your name, email, phone or WhatsApp number, travel dates, number of guests and any message you add.",
+          body: "When you contact us by email we receive your email address and any information you include in your message, such as your name, travel dates and number of guests.",
         },
         {
           heading: "Why we use it",
@@ -25,7 +25,7 @@ export const legal: Record<LegalKind, Record<Lang, LegalDoc>> = {
         },
         {
           heading: "How long we keep it",
-          body: "Requests that don't become a booking are deleted within 12 months. Booking records are kept for as long as the law requires.",
+          body: "Messages that don't become a booking are deleted within 12 months. Booking records are kept for as long as the law requires.",
         },
         {
           heading: "Your rights",
@@ -42,7 +42,7 @@ export const legal: Record<LegalKind, Record<Lang, LegalDoc>> = {
         },
         {
           heading: "Qué datos recogemos",
-          body: "Al enviar una solicitud de reserva recibimos tu nombre, email, teléfono o WhatsApp, fechas del viaje, número de huéspedes y el mensaje que añadas.",
+          body: "Cuando nos escribes por email recibimos tu dirección de correo y la información que incluyas en el mensaje, como tu nombre, fechas del viaje y número de huéspedes.",
         },
         {
           heading: "Para qué los usamos",
@@ -50,7 +50,7 @@ export const legal: Record<LegalKind, Record<Lang, LegalDoc>> = {
         },
         {
           heading: "Cuánto tiempo los guardamos",
-          body: "Las solicitudes que no acaban en reserva se eliminan en un plazo de 12 meses. Los datos de reservas se conservan el tiempo que exige la ley.",
+          body: "Los mensajes que no acaban en reserva se eliminan en un plazo de 12 meses. Los datos de reservas se conservan el tiempo que exige la ley.",
         },
         {
           heading: "Tus derechos",
@@ -67,7 +67,7 @@ export const legal: Record<LegalKind, Record<Lang, LegalDoc>> = {
         },
         {
           heading: "O que coletamos",
-          body: "Ao enviar um pedido de reserva, recebemos seu nome, email, telefone ou WhatsApp, datas da viagem, número de hóspedes e a mensagem que você incluir.",
+          body: "Quando você nos escreve por email, recebemos seu endereço de email e as informações que incluir na mensagem, como nome, datas da viagem e número de hóspedes.",
         },
         {
           heading: "Para que usamos",
@@ -75,7 +75,7 @@ export const legal: Record<LegalKind, Record<Lang, LegalDoc>> = {
         },
         {
           heading: "Por quanto tempo guardamos",
-          body: "Pedidos que não viram reserva são apagados em até 12 meses. Os dados de reservas são mantidos pelo tempo exigido por lei.",
+          body: "Mensagens que não viram reserva são apagadas em até 12 meses. Os dados de reservas são mantidos pelo tempo exigido por lei.",
         },
         {
           heading: "Seus direitos",
@@ -98,7 +98,7 @@ export const legal: Record<LegalKind, Record<Lang, LegalDoc>> = {
         },
         {
           heading: "Third-party content",
-          body: "The location map is provided by OpenStreetMap, and the WhatsApp button opens WhatsApp. These services have their own privacy policies.",
+          body: "The location map is provided by OpenStreetMap, which has its own privacy policy.",
         },
       ],
     },
@@ -115,7 +115,7 @@ export const legal: Record<LegalKind, Record<Lang, LegalDoc>> = {
         },
         {
           heading: "Contenido de terceros",
-          body: "El mapa lo proporciona OpenStreetMap y el botón de WhatsApp abre WhatsApp. Estos servicios tienen sus propias políticas de privacidad.",
+          body: "El mapa lo proporciona OpenStreetMap, que tiene su propia política de privacidad.",
         },
       ],
     },
@@ -132,7 +132,7 @@ export const legal: Record<LegalKind, Record<Lang, LegalDoc>> = {
         },
         {
           heading: "Conteúdo de terceiros",
-          body: "O mapa é fornecido pelo OpenStreetMap e o botão do WhatsApp abre o WhatsApp. Esses serviços têm suas próprias políticas de privacidade.",
+          body: "O mapa é fornecido pelo OpenStreetMap, que tem sua própria política de privacidade.",
         },
       ],
     },
@@ -142,8 +142,8 @@ export const legal: Record<LegalKind, Record<Lang, LegalDoc>> = {
       title: "Terms",
       sections: [
         {
-          heading: "Booking requests",
-          body: "Sending the form is a request, not a confirmed booking. Your stay is confirmed only when the host replies to confirm dates and price.",
+          heading: "Bookings",
+          body: "Contacting the host is an enquiry, not a confirmed booking. Your stay is confirmed only when the host replies to confirm dates and price.",
         },
         {
           heading: "Prices",
@@ -163,8 +163,8 @@ export const legal: Record<LegalKind, Record<Lang, LegalDoc>> = {
       title: "Condiciones",
       sections: [
         {
-          heading: "Solicitudes de reserva",
-          body: "Enviar el formulario es una solicitud, no una reserva confirmada. Tu estancia queda confirmada solo cuando el anfitrión te responde confirmando fechas y precio.",
+          heading: "Reservas",
+          body: "Escribir al anfitrión es una consulta, no una reserva confirmada. Tu estancia queda confirmada solo cuando el anfitrión te responde confirmando fechas y precio.",
         },
         {
           heading: "Precios",
@@ -184,8 +184,8 @@ export const legal: Record<LegalKind, Record<Lang, LegalDoc>> = {
       title: "Termos",
       sections: [
         {
-          heading: "Pedidos de reserva",
-          body: "Enviar o formulário é um pedido, não uma reserva confirmada. Sua estadia só é confirmada quando o anfitrião responde confirmando datas e preço.",
+          heading: "Reservas",
+          body: "Escrever ao anfitrião é uma consulta, não uma reserva confirmada. Sua estadia só é confirmada quando o anfitrião responde confirmando datas e preço.",
         },
         {
           heading: "Preços",
