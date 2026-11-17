@@ -5,11 +5,9 @@ import { siteConfig } from "@/config/site";
 import { useI18n } from "@/i18n/I18nProvider";
 import { ArchDivider } from "./ArchDivider";
 import { LanguageSwitcher } from "./LanguageSwitcher";
-import { WhatsAppIcon, useWhatsAppLink } from "./whatsapp";
 
 export function Footer() {
   const { t, l } = useI18n();
-  const wa = useWhatsAppLink();
   const c = siteConfig.contact;
 
   return (
@@ -36,17 +34,6 @@ export function Footer() {
               <a href={`mailto:${c.email}`} className="inline-flex items-center gap-2 hover:underline">
                 <Mail className="size-4" aria-hidden="true" />
                 {c.email}
-              </a>
-            </li>
-            <li>
-              <a
-                href={wa}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 hover:underline"
-              >
-                <WhatsAppIcon className="size-4" />
-                {c.phoneDisplay}
               </a>
             </li>
           </ul>

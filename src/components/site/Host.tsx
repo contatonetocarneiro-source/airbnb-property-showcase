@@ -2,14 +2,11 @@ import { Award } from "lucide-react";
 
 import { siteConfig } from "@/config/site";
 import { useI18n } from "@/i18n/I18nProvider";
-import { Button } from "@/components/ui/button";
 import { Reveal } from "./Reveal";
-import { WhatsAppIcon, useWhatsAppLink } from "./whatsapp";
 
 export function Host() {
   const { t, l, lang } = useI18n();
   const h = siteConfig.host;
-  const wa = useWhatsAppLink();
   const rating = h.rating.toLocaleString(lang === "en" ? "en-GB" : lang, { minimumFractionDigits: 2 });
 
   const stats = [
@@ -55,17 +52,9 @@ export function Host() {
             ))}
           </dl>
           <p className="mt-6 leading-relaxed text-muted-foreground">{l(h.bio)}</p>
-          <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-            <p className="text-sm">
-              {t.host.replies} <strong>{l(h.responseTime)}</strong>
-            </p>
-            <Button asChild variant="whatsapp" size="xl">
-              <a href={wa} target="_blank" rel="noopener noreferrer">
-                <WhatsAppIcon />
-                {t.host.message}
-              </a>
-            </Button>
-          </div>
+          <p className="mt-6 text-sm">
+            {t.host.replies} <strong>{l(h.responseTime)}</strong>
+          </p>
         </div>
       </Reveal>
     </section>

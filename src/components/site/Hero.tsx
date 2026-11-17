@@ -1,8 +1,7 @@
-import { Award, CalendarDays, Star } from "lucide-react";
+import { Award, Star } from "lucide-react";
 
 import { heroImage, siteConfig } from "@/config/site";
 import { useI18n } from "@/i18n/I18nProvider";
-import { Button } from "@/components/ui/button";
 
 export function Hero() {
   const { t, l } = useI18n();
@@ -39,20 +38,6 @@ export function Hero() {
             {l(siteConfig.hero.subline)}
           </p>
 
-          <div
-            className="animate-float-in mt-7 flex flex-col gap-3 sm:flex-row"
-            style={{ animationDelay: "240ms" }}
-          >
-            <Button asChild variant="hero" size="xl">
-              <a href="#book">
-                <CalendarDays />
-                {t.checkAvailability}
-              </a>
-            </Button>
-            <Button asChild variant="glass" size="xl">
-              <a href="#book">{t.bookDirect}</a>
-            </Button>
-          </div>
         </div>
 
         <ul

@@ -5,7 +5,6 @@ import { useI18n } from "@/i18n/I18nProvider";
 import { legal, type LegalKind } from "@/i18n/legal";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
-import { WhatsAppFloat } from "./whatsapp";
 
 export function LegalPage({ kind }: { kind: LegalKind }) {
   const { t, lang } = useI18n();
@@ -32,7 +31,6 @@ export function LegalPage({ kind }: { kind: LegalKind }) {
         </div>
       </main>
       <Footer />
-      <WhatsAppFloat />
     </>
   );
 }

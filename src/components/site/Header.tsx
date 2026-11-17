@@ -4,7 +4,6 @@ import { Menu, X } from "lucide-react";
 
 import { siteConfig } from "@/config/site";
 import { useI18n } from "@/i18n/I18nProvider";
-import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
@@ -75,9 +74,6 @@ export function Header({ variant = "home" }: { variant?: "home" | "page" }) {
           <LanguageSwitcher tone={solid ? "default" : "overlay"} className="hidden sm:inline-flex" />
           {variant === "home" ? (
             <>
-              <Button asChild variant="hero" size="sm" className="h-9 px-4">
-                <a href="#book">{t.checkAvailability}</a>
-              </Button>
               <button
                 type="button"
                 onClick={() => setOpen((o) => !o)}
