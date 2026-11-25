@@ -160,6 +160,16 @@ export const siteConfig = {
 
   trust: { rating: 4.67, reviewCount: 21, superhost: true, yearsHosting: 10 },
 
+  // Guest score shown as a badge on the hero. Use the REAL values from the listing.
+  guestScore: {
+    score: 8.8,
+    locationScore: 9.9,
+    reviewCount: 211,
+    label: { en: "Fabulous", es: "Fabuloso", pt: "Fabuloso" } as Localized,
+    reviews: { en: "reviews", es: "valoraciones", pt: "avaliações" } as Localized,
+    location: { en: "Location", es: "Ubicación", pt: "Localização" } as Localized,
+  },
+
   facts: { bedrooms: 3, bathrooms: 2, beds: 7 },
 
   highlights: [

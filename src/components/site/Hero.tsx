@@ -1,12 +1,13 @@
-import { Award, Star } from "lucide-react";
+import { Award } from "lucide-react";
 
 import { heroImage, siteConfig } from "@/config/site";
 import { useI18n } from "@/i18n/I18nProvider";
 
 export function Hero() {
-  const { t, l } = useI18n();
+  const { t, l, lang } = useI18n();
   const hero = heroImage;
-  const { trust } = siteConfig;
+  const { trust, guestScore: score } = siteConfig;
+  const fmt = (n: number) => n.toLocaleString(lang === "en" ? "en-GB" : lang, { minimumFractionDigits: 1 });
 
   return (
     <section className="relative isolate flex min-h-[92svh] items-end overflow-hidden">
@@ -40,17 +41,30 @@ export function Hero() {
 
         </div>
 
+        <div
+          className="animate-float-in mt-6 inline-flex flex-col gap-1.5 rounded-xl bg-white/95 p-3 text-neutral-900 shadow-lifted"
+          style={{ animationDelay: "240ms" }}
+        >
+          <div className="flex items-center gap-3">
+            <div className="text-right leading-tight">
+              <p className="text-sm font-semibold">{l(score.label)}</p>
+              <p className="text-xs text-neutral-600">
+                {score.reviewCount} {l(score.reviews)}
+              </p>
+            </div>
+            <span className="flex size-10 items-center justify-center rounded-lg rounded-bl-none bg-[#003b95] text-base font-bold text-white">
+              {fmt(score.score)}
+            </span>
+          </div>
+          <p className="text-right text-xs text-neutral-700">
+            {l(score.location)} <span className="font-semibold">{fmt(score.locationScore)}</span>
+          </p>
+        </div>
+
         <ul
-          className="animate-float-in mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-primary-foreground/25 pt-5 text-sm text-primary-foreground"
+          className="animate-float-in mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-primary-foreground/25 pt-5 text-sm text-primary-foreground"
           style={{ animationDelay: "320ms" }}
         >
-          <li className="flex items-center gap-1.5 font-semibold">
-            <Star className="size-4 fill-current" aria-hidden="true" />
-            {trust.rating.toFixed(2)}
-          </li>
-          <li>
-            {trust.reviewCount} {t.guestReviews}
-          </li>
           {trust.superhost ? (
             <li className="flex items-center gap-1.5">
               <Award className="size-4" aria-hidden="true" />
