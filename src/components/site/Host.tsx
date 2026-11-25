@@ -7,7 +7,7 @@ import { Reveal } from "./Reveal";
 export function Host() {
   const { t, l, lang } = useI18n();
   const h = siteConfig.host;
-  const rating = h.rating.toLocaleString(lang === "en" ? "en-GB" : lang, { minimumFractionDigits: 2 });
+  const rating = h.rating.toLocaleString(lang === "en" ? "en-GB" : lang, { minimumFractionDigits: 1 });
 
   const stats = [
     { value: h.reviewCount.toLocaleString(), label: t.host.reviews },

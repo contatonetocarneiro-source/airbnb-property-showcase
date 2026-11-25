@@ -158,7 +158,7 @@ export const siteConfig = {
     },
   },
 
-  trust: { rating: 4.67, reviewCount: 21, superhost: true, yearsHosting: 10 },
+  trust: { rating: 8.8, reviewCount: 211, superhost: true, yearsHosting: 10 },
 
   // Guest score shown as a badge on the hero. Use the REAL values from the listing.
   guestScore: {
@@ -317,15 +317,17 @@ export const siteConfig = {
   },
 
   reviews: {
-    overall: 4.67,
-    count: 21,
+    overall: 8.8,
+    count: 211,
+    // Scale 0-10 (Booking). Only "Location" (9.9) comes from the real listing;
+    // the others are the old placeholders doubled — replace with the real subscores.
     categories: [
-      { label: { en: "Cleanliness", es: "Limpieza", pt: "Limpeza" }, score: 4.8 },
-      { label: { en: "Accuracy", es: "Veracidad", pt: "Precisão" }, score: 4.5 },
-      { label: { en: "Check-in", es: "Llegada", pt: "Check-in" }, score: 4.7 },
-      { label: { en: "Communication", es: "Comunicación", pt: "Comunicação" }, score: 4.6 },
-      { label: { en: "Location", es: "Ubicación", pt: "Localização" }, score: 5.0 },
-      { label: { en: "Value", es: "Calidad-precio", pt: "Custo-benefício" }, score: 4.8 },
+      { label: { en: "Cleanliness", es: "Limpieza", pt: "Limpeza" }, score: 9.6 },
+      { label: { en: "Accuracy", es: "Veracidad", pt: "Precisão" }, score: 9.0 },
+      { label: { en: "Check-in", es: "Llegada", pt: "Check-in" }, score: 9.4 },
+      { label: { en: "Communication", es: "Comunicación", pt: "Comunicação" }, score: 9.2 },
+      { label: { en: "Location", es: "Ubicación", pt: "Localização" }, score: 9.9 },
+      { label: { en: "Value", es: "Calidad-precio", pt: "Custo-benefício" }, score: 9.6 },
     ],
     quotes: [
       {
@@ -407,8 +409,8 @@ export const siteConfig = {
     name: "Manuel",
     superhost: true,
     yearsHosting: 10,
-    reviewCount: 690,
-    rating: 4.78,
+    reviewCount: 211,
+    rating: 8.8,
     responseRate: 98,
     responseTime: {
       en: "within 1 hour",

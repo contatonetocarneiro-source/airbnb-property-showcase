@@ -1,4 +1,4 @@
-import { Quote, Star } from "lucide-react";
+import { Quote } from "lucide-react";
 
 import { siteConfig } from "@/config/site";
 import { useI18n } from "@/i18n/I18nProvider";
@@ -21,15 +21,10 @@ export function Reviews() {
       <div className="mt-10 grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
         <Reveal className="rounded-2xl border border-border/70 bg-card p-6 shadow-soft sm:p-8">
           <div className="flex items-end gap-3">
-            <span className="font-display text-6xl leading-none font-semibold">{fmt(r.overall, 2)}</span>
+            <span className="font-display text-6xl leading-none font-semibold">{fmt(r.overall, 1)}</span>
             <span className="pb-1 text-sm text-muted-foreground">{t.reviews.outOf}</span>
           </div>
-          <div className="mt-3 flex items-center gap-1 text-star" aria-hidden="true">
-            {Array.from({ length: 5 }).map((_, i) => (
-              <Star key={i} className="size-4 fill-current" />
-            ))}
-          </div>
-          <p className="mt-2 text-sm text-muted-foreground">
+          <p className="mt-3 text-sm text-muted-foreground">
             {r.count} {t.guestReviews}
           </p>
 
@@ -41,7 +36,7 @@ export function Reviews() {
                 <div className="col-span-2 h-1.5 overflow-hidden rounded-full bg-muted">
                   <div
                     className="h-full rounded-full bg-secondary"
-                    style={{ width: `${(c.score / 5) * 100}%` }}
+                    style={{ width: `${(c.score / 10) * 100}%` }}
                   />
                 </div>
               </div>

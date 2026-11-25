@@ -47,8 +47,8 @@ const en = {
   reviews: {
     eyebrow: "Guest reviews",
     title: "What guests say",
-    outOf: "out of 5",
-    source: "From guest reviews on Airbnb",
+    outOf: "out of 10",
+    source: "From guest reviews on Booking.com",
   },
   goodToKnow: { eyebrow: "Honest details", title: "Good to know" },
   host: {
@@ -162,8 +162,8 @@ const es: UIStrings = {
   reviews: {
     eyebrow: "Opiniones",
     title: "Lo que dicen los huéspedes",
-    outOf: "sobre 5",
-    source: "Opiniones de huéspedes en Airbnb",
+    outOf: "sobre 10",
+    source: "Opiniones de huéspedes en Booking.com",
   },
   goodToKnow: { eyebrow: "Con total transparencia", title: "Conviene saber" },
   host: {
@@ -275,8 +275,8 @@ const pt: UIStrings = {
   reviews: {
     eyebrow: "Avaliações",
     title: "O que dizem os hóspedes",
-    outOf: "de 5",
-    source: "Avaliações de hóspedes no Airbnb",
+    outOf: "de 10",
+    source: "Avaliações de hóspedes no Booking.com",
   },
   goodToKnow: { eyebrow: "Com toda a transparência", title: "Bom saber" },
   host: {
